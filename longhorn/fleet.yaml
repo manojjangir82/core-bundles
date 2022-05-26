@@ -10,9 +10,9 @@ diff:
     kind: Setting
     namespace: longhorn-system
     name: default-data-path
-    value: /var/lib/longhorn/
+    value: /data/longhorn/
   - apiVersion: longhorn.io/v1beta1
     kind: Setting
     name: create-default-disk-labeled-nodes
     namespace: longhorn-system
-    value: "false"  
+    value: "true"  
