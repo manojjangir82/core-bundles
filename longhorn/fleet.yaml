@@ -4,8 +4,4 @@ helm:
   repo: https://charts.rancher.io
   chart: longhorn
   releaseName: longhorn
-  values:
-    defaultSettings:
-      createDefaultDiskLabeledNodes: true
-      defaultDataPath: /data/longhorn
     
