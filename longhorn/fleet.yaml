@@ -5,5 +5,7 @@ helm:
   chart: longhorn
   releaseName: longhorn
   values:
-    defaultDataPath: /data/longhorn
-    createDefaultDiskLabeledNodes: true
+    defaultSettings:
+      createDefaultDiskLabeledNodes: true
+      defaultDataPath: /data/longhorn
+    
