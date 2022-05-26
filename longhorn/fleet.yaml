@@ -4,4 +4,15 @@ helm:
   repo: https://charts.rancher.io
   chart: longhorn
   releaseName: longhorn
-    
+diff:
+  comparePatches:
+  - apiVersion: longhorn.io/v1beta1
+    kind: Setting
+    namespace: longhorn-system
+    name: default-data-path
+    value: /var/lib/longhorn/
+  - apiVersion: longhorn.io/v1beta1
+    kind: Setting
+    name: create-default-disk-labeled-nodes
+    namespace: longhorn-system
+    value: "false"  
