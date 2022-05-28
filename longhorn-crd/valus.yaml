@@ -1,3 +1,0 @@
-defaultSettings:
-  createDefaultDiskLabeledNodes: true
-  defaultDataPath: /data/longhorn
